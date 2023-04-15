@@ -1,0 +1,77 @@
+p.small {
+	font: bold 10pt 'Courier New';
+}
+header.logo {
+	background-image: url("logo_header.png");
+	background-size: 100% 100%;
+	background-color: white;
+	background-repeat: no-repeat;
+	width: 100%;
+	padding-top: 1.75%;
+	padding-bottom: 1.75%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+}
+a.logolink {
+	font-family: "courier new";
+	font-size: 1.5vw;
+	position: absolute;
+	color: white;
+}
+a.logolink:link, a.logolink:visited {
+	text-decoration: none;
+}
+a.logolink:hover, a.logolink:active {
+	text-decoration: underline;
+}
+a.homelink {
+	font-family: "courier new";
+	font-size: 1.75vw;
+	position: relative;
+	color: black;
+}
+a.homelink:link, a.homelink:visited {
+	text-decoration: none;
+}
+a.homelink:hover, a.homelink:active {
+	text-decoration: underline;
+}
+a.tablelink {
+	color: black;
+}
+a.tablelink:link, a.tablelink:visited {
+	text-decoration: none;
+}
+a.tablelink:hover, a.tablelink:active {
+	text-decoration: underline;
+}
+body.style1 {
+	background-color: grey;
+}
+.table1 {
+	border-collapse: separate;
+	border-spacing: 30px 30px;
+}
+.tableitem1 {
+	vertical-align: baseline;
+}
+.itemstyle1 {
+	border-style: solid;
+	font-family: "arial";
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	background: #D0D0D0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+}
+.itemstyle2 {
+	width: 30%;
+	margin: 30px;
+	border-style: solid;
+	font-family: "arial";
+	padding-left: 15px;
+	padding-right: 15px;
+	background: #D0D0D0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+}
+	
