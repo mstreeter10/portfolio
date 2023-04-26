@@ -55,6 +55,8 @@ body.style1 {
 	vertical-align: baseline;
 }
 .itemstyle1 {
+	width: 100%;
+	max-width: 100%;
 	border-style: solid;
 	font-family: "arial";
 	padding-left: 15px;
@@ -65,13 +67,44 @@ body.style1 {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
 }
 .itemstyle2 {
-	width: 30%;
-	margin: 30px;
+	margin: auto;
+	margin-top: 30px;
+	width: 80%;
+	max-width: 100%;
 	border-style: solid;
 	font-family: "arial";
 	padding-left: 15px;
 	padding-right: 15px;
 	background: #D0D0D0;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+}
+.imgstyle {
+	height: auto;
+	max-width: 100%;
+	margin: auto;
+	margin-top: 30px;
+	width: 80%;
+	border-style: solid;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+}
+div.container {
+	width: 100%;
+	margin: auto;
+	float: left;
+}
+div.right {
+	padding: 10px;
+	width: 33%;
+	float: right;
+}
+div.middle {
+	padding: 10px;
+	margin:0 auto;
+	width: 33%;
+}
+div.left {
+	padding: 10px;
+	float: left;
+	width: 33%;
 }
 	
