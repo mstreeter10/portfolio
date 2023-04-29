@@ -107,4 +107,9 @@ div.left {
 	float: left;
 	width: 33%;
 }
-	
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 90%;
+	height: 2.5rem;
+}
